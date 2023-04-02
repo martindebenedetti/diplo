@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de consulta</title>
+</head>
+<body style="background-color: rgb(221, 250, 250);">
+    <nav> <a href="/U4/prueba.html" >Volver</a> </nav>
+    <title> Formulario de Consutlas </title>
+    <br>
+    <h1>Complete los datos solicitados</h1>
+    <br>
+    
+<form action="" method="">
+        
+    <p>
+        <label for="nom">Nombres: </label> 
+    <input type="text" name="nombre" id="" placeholder="ingrese nombres"/>
+    </p>
+    <p>
+        <label for="ape">Apellidos: </label> 
+        <input type="text" name="apellido" id="" placeholder="ingrese apellidos"/>
+    </p>
+    <p>
+        <label for="pass">Contrase&ntildea:</label>
+        <input type="password" name="pass" placeholder="ingrese passwoord"/>
+    </p>
+    <label for="sexo">Sexo</label>
+   <ul>
+    <li>
+        <input type="radio" name="sexo" value="hombre"/>
+        <label >Hombre</label>
+    </li>
+    <li>
+        <input type="radio" name="sexo" value="mujer"/>
+        <label>Mujer</label>
+    </li>
+   </ul>
+<label >Hobbies</label>
+<ul>
+    <li>
+        <input type="checkbox" name="hobbies[]" value="bailar" id="bailar"/>
+        <label for="bailar">Bailar</label>
+    </li>
+    <li>
+        <input type="checkbox" name="hobbies[]" value="cantar" id="cantar"/>
+        <label for="cantar">Cantar</label>
+    </li>   
+    <li>
+        <input type="checkbox" name="hobbies[]" value="nadar" id="nadar" />
+        <label for="nadar">Nadar</label>
+    </li>
+    <li>
+        <input type="checkbox" name="hobbies[]" value="correr" id="correr"/>
+        <label for="correr">Correr</label>    
+    </li>
+</ul>
+<p>
+    <label for="tirulo">Titulo</label>
+    <select name="titulo" >
+        <option value="primario">Primario</option>
+        <option value="secundario">Secundario</option>
+        <option value="terciario">Terciario</option>
+        <option value="universitario">Universitario</option>
+    </select>
+</p>
+<p>
+    <label for="comentarios">Comentarios: </label>
+    <textarea name="comentarios" placeholder="ingrese comentario"></textarea>
+</p>
+    <p>
+        <input type="submit" value="enviar"/>
+        <input type="reset" name="borrar">
+    </p>
+</form>    
+</body>
+</html>

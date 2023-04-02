@@ -36,6 +36,11 @@ nav{
     text-align: center;
     background-color: rgb(92, 234, 94);
 }
+a.link:hover{
+    color: yellow;
+    background-color: #010e02;
+    transition: background-color .5s;;
+}
 div.div{
     text-align: center;
     padding: 10px 50px 10px 50px;
@@ -57,7 +62,7 @@ span.destacados{
 }
 #caja{
     border-radius: 10px;
-    border: solid rebeccapurple;
+    border: 3,5px solid rebeccapurple;
     margin: 20px 400px;
     text-align: center;
     background-color: yellowgreen;
@@ -69,6 +74,6 @@ span.destacados{
 #caja h2{ 
     text-decoration-line: none;
     text-align: center;
-  
+    text-transform: uppercase;
 
 }
