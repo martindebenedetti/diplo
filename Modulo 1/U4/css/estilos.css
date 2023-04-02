@@ -1,0 +1,74 @@
+header.encabezado{
+    background: #34ce15;
+background: -moz-linear-gradient(top, #34ce15 0%, #28d0a9 50%, #29acf2 100%);
+background: -webkit-linear-gradient(top, #34ce15 0%, #28d0a9 50%, #29acf2 100%);
+background: linear-gradient(to bottom, #34ce15 0%, #28d0a9 50%, #29acf2 100%);
+border-radius: 4px;
+margin: 20px 200px 20px 200px;
+}
+h1{
+    color: blueviolet;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+h1.titulos2{
+color: rgb(13, 182, 143);
+text-align: left;
+font-size: 30px;
+}
+h2{
+    text-decoration-line: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: rgb(17, 0, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+p.copyrigth{
+    color: black;
+    font-weight: bold;
+}
+nav{
+    border: solid 2px red;
+    text-align: center;
+    background-color: rgb(92, 234, 94);
+}
+div.div{
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    border-radius: 4px;
+    margin: auto
+}
+img.Imagen{
+    
+    border: 10px solid #ddd;;padding: 5px;width: 150px;
+   
+
+}
+span.destacados{
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial;
+
+}
+#caja{
+    border-radius: 10px;
+    border: solid rebeccapurple;
+    margin: 20px 400px;
+    text-align: center;
+    background-color: yellowgreen;
+    height: 150px;
+    width: 600px;
+    
+
+}
+#caja h2{ 
+    text-decoration-line: none;
+    text-align: center;
+  
+
+}
