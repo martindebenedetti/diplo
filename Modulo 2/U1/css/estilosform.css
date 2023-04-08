@@ -1,0 +1,19 @@
+*{
+    margin: auto;
+}
+
+div{
+    border: 2px solid black;
+    border-radius: 0px 5px 5px 5px;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+div.botones{
+    border: 0px;
+    margin-left: 40px;
+
+}
+label{
+    text-decoration: underline;
+}
