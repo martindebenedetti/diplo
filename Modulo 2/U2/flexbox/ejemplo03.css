@@ -1,0 +1,26 @@
+.contenedor{
+    background-color: #CCC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCC;
+    width: 100px;
+    height: 100px; 
+    font-size: 30px;
+    color: white;
+}
+.item:first-child{
+    background-color: red;
+}
+.item:nth-child(2){
+    background-color: blue;
+}
+.item:nth-child(3){
+    background-color: green;
+}

@@ -143,5 +143,34 @@ column-rule: 3px solid #000000;
 }
 .lineaH{
     border: 5px solid grey;
-    margin: 10px;
+    
 }
+div.pseudo{
+    margin: 10px 10px;
+    text-align: left;
+    
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+}
+div.pseudo:hover{
+    background-color: #f89b4d;
+}
+
+span.pseudoelement{
+    
+    margin: 10px;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+span.pseudoelement::after{
+    content: 'despues';
+    background-color: red;
+}
+span.pseudoelement::before{
+    content: 'antes';
+    background-color: red;
+}
+
