@@ -1,0 +1,19 @@
+.logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+.navlog{
+    background-color: grey;
+}
+
+  
+div.imagen{
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+
+   width: 400px;
+    height: 400px;
+}
+
