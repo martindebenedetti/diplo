@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const distancia = parseInt(prompt("Ingrese la distancia en metros"));
+      const transporte = ['pie', 'bicicleta', 'colectivo', 'auto', 'avion'];
+
+      if (Number.isNaN(distancia)) {
+			document.write(`La distancia ingresada no es válida`);
+        }else if(distancia <0 ) {
+            document.write(`La distancia debe ser en metros y es positiva`);
+        }else if(distancia >= 0 && distancia <= 1000) {
+        document.write(
+          `El medio de transporte para esa distancia es a ` + transporte[0]
+        );
+      } else if (distancia <= 10000) {
+        document.write(`El medio de transporte para esa distancia es a ` + transporte[1]
+        );
+      } else if (distancia <= 30000) {
+        document.write(
+          `El medio de transporte para esa distancia es a ` + transporte[2]
+        );
+      } else if (distancia <= 100000) {
+        document.write(
+          `El medio de transporte para esa distancia es a ` + transporte[3]
+        );
+      }else{
+        document.write(
+          `El medio de transporte para esa distancia es a ` + transporte[4]
+        );
+      }
+
+     
+    </script>
+  </body>
+</html>

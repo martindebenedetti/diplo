@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let x = 1;
+      const cuantos = 5;
+      let numeros =[];
+      while (x <= cuantos) {
+        const valor = parseInt(
+          prompt(`Ingrese el valor ${x}  de ${cuantos}:`, "")
+        );
+        numeros.push( valor);
+        x++;
+      }
+      mayor=Math.max(...numeros)
+   
+    document.write(`Ingreso los siguientes ${cuantos} numeros [ ${numeros} ]  ` ) 
+   
+    document.write(`<br/> De los ${cuantos} numeros ingresados el mayor es `, mayor )
+    </script>
+  </body>
+</html>
