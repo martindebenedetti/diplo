@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio1.css">
+    <title>Document</title>
+</head>
+<body class="cambiarfondo">
+<div class="contenedor">
+    <div class="caja1" onclick="cambiarcolor1();"></div>
+    <div class="caja2" onclick="cambiarcolor2();" ></div>
+    <div class="caja3" onclick="cambiarcolor3();"></div>
+</div>    
+<script>
+ function cambiarfondo(color) {
+                document.body.style.background = color;
+            }
+              
+            function cambiarcolor1() {
+                cambiarfondo('red');
+                
+            }
+           
+              
+            function cambiarcolor2() {
+                cambiarfondo('green');
+                
+            }   
+         
+            function cambiarcolor3() {
+                cambiarfondo('blue');
+                
+            }  
+</script>
+</body>
+</html>
