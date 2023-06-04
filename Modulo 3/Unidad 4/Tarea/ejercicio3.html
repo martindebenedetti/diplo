@@ -44,20 +44,34 @@
           nota: 8,
         },
       ];
+/*
       let mayor = [];
       for (let i = 0; i < alumnos.length; i++) {
         if (alumnos[i].nota >= 7) {
           mayor.push(alumnos[i]);
         }
       }
-
       console.log(mayor);
-
+    
       for (let i = 0; i < mayor.length; i++) {
         document.write(
           `Alumno:  ${mayor[i].nombre}, Nota: ${mayor[i].nota}  </br> </br>`
         );
       }
+
+
+*/
+
+var alumnosAprobados = alumnos.filter(alumno => alumno.nota >= 7)
+console.log(alumnosAprobados);
+
+for (let i = 0; i < alumnosAprobados.length; i++) {
+        document.write(
+          `Alumno:  ${alumnosAprobados[i].nombre}, Nota: ${alumnosAprobados[i].nota}  </br> </br>`
+        );
+      }
+
+
     </script>
   </body>
 </html>
