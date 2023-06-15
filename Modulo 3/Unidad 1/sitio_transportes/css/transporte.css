@@ -1,6 +1,9 @@
 
 /* font-family: 'Trocchi', serif; */
-
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+  }
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -94,7 +97,7 @@ h2{
     color: #2e64a1;
     font-weight: 400;
 }
-.bienvenido{
+.bienvenidos{
     width: 75%;
     padding-right: 10px;
     box-sizing: border-box;
