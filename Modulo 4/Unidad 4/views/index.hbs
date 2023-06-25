@@ -1,0 +1,34 @@
+<h1>{{title}}</h1>
+
+
+{{#if conocido }}
+  {{#if edad}}
+ 
+<p>Hola {{nombre}}, eres mayor de edad </p>
+  
+<a href="/salir">Salir</a>  
+  {{/if}}
+  {{/if}}
+
+{{#unless edad}}
+{{#if conocido }}
+<p>Hola {{nombre}}, eres menor de edad </p>
+  
+<a href="/salir">Salir</a>  
+{{/if}}
+{{/unless}}
+
+
+{{#unless conocido}}
+  <p>No te conozco</p>
+  <form class="formulario" action="/ingresar" method="post" >
+    <input type="text" name="nombre" placeholder="ingresar nombre"/> </br> </br>
+    <label><input type="checkbox" name="edad"/>Tienes mas de 18 a&ntilde;os</label></br></br>
+    <button>Ingresar</button>
+  </form>
+{{/unless}}
+
+
+
+
+
