@@ -1,1 +1,26 @@
-<h1>Proximamente armamos el login</h1>
+<div class="container my-3 bg-dark text-white" style="margin-top: 100px;">
+  <div class="row" style="padding-bottom: 20px;">
+    <form action="/admin/login" method="post">
+    <div class="mb-3 row">
+      <div class="form-group" style="padding: 10px;">
+        <input type="text" class="form-control" id="inputUser"  placeholder="Usuario" name="usuario">
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <div class="form-group">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" name="password">
+      </div>
+    </div >
+    <button type="submit" class="btn btn-primary" >Ingresar</button>
+    </form>
+
+{{#if error}}
+  <P>Usuario o clave incorrecto</P>
+{{/if}}
+
+  </div>
+</div>
+
+
+
+
